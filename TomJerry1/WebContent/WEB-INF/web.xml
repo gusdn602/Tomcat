@@ -79,5 +79,60 @@
     	<servlet-name>1st_getInfo</servlet-name>
     	<url-pattern>/pre/MembInfo.cls2</url-pattern>
     </servlet-mapping>
+    
+    <!-- JSTL Test01 요청 처리 서블릿 매핑 -->
+	<servlet>
+        <servlet-name>JSTL_Test01</servlet-name>
+        <servlet-class>day06.JSTL_Test01</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>JSTL_Test01</servlet-name>
+    	<url-pattern>/pre/JSTL_Test01.cls2</url-pattern>
+    </servlet-mapping>
+    
+     <!-- gugudan페이지 폼보기 요청 처리 서블릿 매핑 -->
+	<servlet>
+        <servlet-name>gugudan</servlet-name>
+        <servlet-class>day06.Gugudan</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>gugudan</servlet-name>
+    	<url-pattern>/pre/gugudan.cls2</url-pattern>
+    </servlet-mapping>
+    
+     <!-- gug단출력 요청 처리 서블릿 매핑 -->
+	<servlet>
+        <servlet-name>jtest2</servlet-name>
+        <servlet-class>day06.Jtest02</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>jtest2</servlet-name>
+    	<url-pattern>/pre/jstl_test02.cls2</url-pattern>
+    </servlet-mapping>
+    
+     <!-- jstl_test03 요청 처리 서블릿 매핑 -->
+	<servlet>
+        <servlet-name>jtest3</servlet-name>
+        <servlet-class>day06.Jtest03</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>jtest3</servlet-name>
+    	<url-pattern>/pre/jstl_test03.cls2</url-pattern>
+    </servlet-mapping>
+    
+     <!-- jstl_test04 요청 처리 서블릿 매핑 -->
+	<servlet>
+        <servlet-name>jtest4</servlet-name>
+        <servlet-class>day06.Jtest04</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>jtest4</servlet-name>
+    	<url-pattern>/pre/jstl_test04.cls2</url-pattern>
+    </servlet-mapping>
 	
 </web-app>
